@@ -50,29 +50,29 @@ PROGRAM Mapa_Logistico
 
 	DO i = 1, 50 !Geracoes!
 
-	!Recalculo das razoes!
-	v = r*v*(1 - v)
-	w = r*w*(1 - w)
-	x = r*x*(1 - x)
-	y = r*y*(1 - y)
-	z = r*z*(1 - z)
+		!Recalculo das razoes!
+		v = r*v*(1 - v)
+		w = r*w*(1 - w)
+		x = r*x*(1 - x)
+		y = r*y*(1 - y)
+		z = r*z*(1 - z)
 
-	!Recalculo das barra razoes!
-	bv = r*bv*(1 - bv)
-	bw = r*bw*(1 - bw)
-	bx = r*bx*(1 - bx)
-	by = r*by*(1 - by)
-	bz = r*bz*(1 - bz)
+		!Recalculo das barra razoes!
+		bv = r*bv*(1 - bv)
+		bw = r*bw*(1 - bw)
+		bx = r*bx*(1 - bx)
+		by = r*by*(1 - by)
+		bz = r*bz*(1 - bz)
 
-	!Recalculo das diferencas!
-	dv = ABS(bv - v) 
-	dw = ABS(bw - w)
-	dx = ABS(bx - x)
-	dy = ABS(by - y)
-	dz = ABS(bz - z)
+		!Recalculo das diferencas!
+		dv = ABS(bv - v) 
+		dw = ABS(bw - w)
+		dx = ABS(bx - x)
+		dy = ABS(by - y)
+		dz = ABS(bz - z)
 
-	!Output!
-	WRITE(10,100) i, dv, dw, dx, dy, dz
+		!Output!
+		WRITE(10,100) i, dv, dw, dx, dy, dz
 
 	END DO
 
