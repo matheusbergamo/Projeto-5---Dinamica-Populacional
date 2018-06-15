@@ -1,4 +1,4 @@
-PROGRAM Mapa_Logistico
+PROGRAM Distancia
 
 !VARIAVEIS!
 
