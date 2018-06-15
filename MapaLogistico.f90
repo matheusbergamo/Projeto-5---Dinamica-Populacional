@@ -16,7 +16,7 @@ PROGRAM Mapa_Logistico
     100 FORMAT (' ', i5, ' ', f20.15, f20.15, f20.15)
     OPEN(10, FILE = 'mapa.dat')
 
-	 WRITE(10,100) i, x, y, z
+	WRITE(10,100) i, x, y, z
 
 !ITERACAO!
 
