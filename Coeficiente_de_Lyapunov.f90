@@ -18,13 +18,7 @@ PROGRAM Coeficiente_de_Lyapunov
 
 !CONDICOES INICIAIS!
 
-	!Somas!
 	soma = 0
-
-!FORMATACAO E OUTPUT!
-
-	100 FORMAT (' ', i5, ' ', f20.15, f20.15)
-	OPEN(10, FILE = 'mapalya.dat')
 
 !ITERACAO!
 
@@ -39,12 +33,7 @@ PROGRAM Coeficiente_de_Lyapunov
 		!Recalculo das somas!
 		soma = lamb + soma
 		
-		!Output!
-		WRITE(10,100) i, x, lamb
-		
 	END DO
-
-	CLOSE(10)
 
 	WRITE(*,*) soma/(101)
 
