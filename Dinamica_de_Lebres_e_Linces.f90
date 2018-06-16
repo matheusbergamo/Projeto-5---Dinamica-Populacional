@@ -1,4 +1,4 @@
-PROGRAM Dinâmica_de_Lebres_e_Linces
+PROGRAM Dinamica_de_Lebres_e_Linces
 
 !VARIAVEIS!
 
