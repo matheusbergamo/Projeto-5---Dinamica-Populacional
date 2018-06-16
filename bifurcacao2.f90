@@ -1,4 +1,4 @@
-PROGRAM bifurcacao	
+PROGRAM Diagrama_de_Bifurcacao
 
 !VARIAVEIS!
 
