@@ -49,5 +49,3 @@ PROGRAM Coeficiente_de_Lyapunov
 	WRITE(*,*) soma/(101)
 
 END PROGRAM
-
-
